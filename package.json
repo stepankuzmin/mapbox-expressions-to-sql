@@ -1,0 +1,30 @@
+{
+  "name": "mapbox-expressions-to-sql",
+  "version": "1.0.0",
+  "description":
+    "Transform Mapbox GL Style Specification decision expressions to SQL WHERE clause conditions",
+  "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
+  "homepage": "https://github.com/stepankuzmin/mapbox-expressions-to-sql",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint .",
+    "release": "standard-version",
+    "test": "node test.js"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "standard-version": "^4.3.0",
+    "tape": "^4.8.0"
+  }
+}

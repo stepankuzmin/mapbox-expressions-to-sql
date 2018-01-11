@@ -1,0 +1,21 @@
+language: node_js
+
+dist: trusty
+
+cache:
+  yarn: true
+
+branches:
+  except:
+    - /^v[0-9]/
+
+node_js:
+  - "6"
+  - "8"
+
+before_install: yarn global add greenkeeper-lockfile@1
+install: travis_wait 30 yarn
+
+before_script: greenkeeper-lockfile-update
+script: yarn test
+after_script: greenkeeper-lockfile-upload
