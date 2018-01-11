@@ -1,5 +1,7 @@
 # mapbox-expressions-to-sql
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stepankuzmin/mapbox-expressions-to-sql.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/stepankuzmin/mapbox-expressions-to-sql.svg?branch=master)](https://travis-ci.org/stepankuzmin/mapbox-expressions-to-sql)
 
 Transform Mapbox GL style specification [decision expressions](https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions-decision) to SQL `WHERE` clause conditions.
