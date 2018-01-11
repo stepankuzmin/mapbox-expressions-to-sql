@@ -34,4 +34,4 @@ parse(["in", "key", "v0", "v1", "v2"]) === "key IN ('v0', 'v1', 'v2')";
 parse(["all", ["==", "key0", "value0"], ["==", "key1", "value1"]]) === "key0 = 'value0' AND key1 = 'value1'";
 ```
 
-See [tests](https://github.com/stepankuzmin/node-isochrone/blob/master/test.js) for more examples.
+See [tests](https://github.com/stepankuzmin/mapbox-expressions-to-sql/blob/master/test.js) for more examples.
